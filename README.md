@@ -1,12 +1,12 @@
-# ✈️ Flight Price Prediction
+# Flight Price Prediction
 
 A machine learning project that predicts airline ticket prices based on flight details such as airline, source, destination, stops, and travel duration.
 
-## 📌 Project Overview
+# Project Overview
 
 This project uses a **Random Forest Regressor** to predict flight prices for Indian domestic airlines. The model was trained on real flight booking data and achieves an **R² score of ~0.82**, meaning it explains about 82% of the variance in ticket prices.
 
-## 📂 Dataset
+# Dataset
 
 The dataset (`Data_Train.xlsx`) contains the following features:
 
@@ -24,7 +24,7 @@ The dataset (`Data_Train.xlsx`) contains the following features:
 | `Additional_Info` | Extra info about the flight |
 | `Price` | **Target variable** — ticket price in INR |
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python 3
 - Pandas & NumPy — data manipulation
@@ -32,16 +32,17 @@ The dataset (`Data_Train.xlsx`) contains the following features:
 - Scikit-learn — machine learning (Random Forest Regressor)
 - Pickle — model saving and loading
 
-## 🔍 Project Workflow
+## Project Workflow
 
 1. **Data Loading** — Load training data from Excel file
-2. **Exploratory Data Analysis (EDA)** — Explore and visualize the dataset
-3. **Data Preprocessing** — Handle missing values, encode categorical variables, extract features from dates and times
-4. **Model Training** — Train a Random Forest Regressor on the processed data
-5. **Model Evaluation** — Evaluate using R² score (~0.82)
-6. **Model Saving** — Save the trained model using Pickle for future use
+2. **Data cleaning** 
+3. **Exploratory Data Analysis (EDA)** — Explore and visualize the dataset
+4. **Data Preprocessing** — Handle missing values, encode categorical variables, extract features from dates and times
+5. **Model Training** — Train a Random Forest Regressor on the processed data
+6. **Model Evaluation** — Evaluate using R² score (~0.82)
+7. **Model Saving** — Save the trained model using Pickle for future use
 
-## 📈 Model Performance
+##  Model Performance
 
 | Metric | Score |
 |---|---|
