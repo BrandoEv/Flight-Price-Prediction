@@ -48,7 +48,7 @@ The dataset (`Data_Train.xlsx`) contains the following features:
 |---|---|
 | R² Score | 0.8167 |
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
@@ -68,7 +68,7 @@ The dataset (`Data_Train.xlsx`) contains the following features:
    jupyter notebook project_1_airline_.ipynb
    ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 airline-project/
